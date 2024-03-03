@@ -1,0 +1,9 @@
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.csproj.AssemblyReference.cache
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.frmDatabase.resources
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.frmPrograma.resources
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.Properties.Resources.resources
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.csproj.GenerateResource.cache
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.AssemblyInfoInputs.cache
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.AssemblyInfo.cs
+C:\Users\dioge\source\repos\Catalogo\Catalogo\obj\x86\Release\net5.0-windows\Catalogo.csproj.CoreCompileInputs.cache
