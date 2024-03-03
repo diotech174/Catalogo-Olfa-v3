@@ -29,9 +29,10 @@ WINDOWS 10 32bit e 64bit
 9. Selecione a pasta das imagens.
 10. Selecione a pasta de saída do PDF gerado.
 11. Selecione a tabela de preço.
-12. Selecione as definições de Font.
-13. Clique sobre o botão "Gerar PDF".
-14. Se tudo ocorrer bem será gerado o arquivo PDF na pasta que você selecionou.
+12. Selecione a moeda.
+13. Selecione as definições de Font.
+14. Clique sobre o botão "Gerar PDF".
+15. Se tudo ocorrer bem será gerado o arquivo PDF na pasta que você selecionou.
 
 OBSERVAÇÕES
 
