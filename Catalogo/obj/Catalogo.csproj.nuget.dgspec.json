@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dioge\\source\\repos\\catalogo-OLFA\\Catalogo\\Catalogo.csproj": {}
+    "C:\\Users\\dioge\\OneDrive\\Documentos\\GitHub\\Catalogo-Olfa-v3\\Catalogo\\Catalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dioge\\source\\repos\\catalogo-OLFA\\Catalogo\\Catalogo.csproj": {
+    "C:\\Users\\dioge\\OneDrive\\Documentos\\GitHub\\Catalogo-Olfa-v3\\Catalogo\\Catalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dioge\\source\\repos\\catalogo-OLFA\\Catalogo\\Catalogo.csproj",
+        "projectUniqueName": "C:\\Users\\dioge\\OneDrive\\Documentos\\GitHub\\Catalogo-Olfa-v3\\Catalogo\\Catalogo.csproj",
         "projectName": "Catalogo",
-        "projectPath": "C:\\Users\\dioge\\source\\repos\\catalogo-OLFA\\Catalogo\\Catalogo.csproj",
+        "projectPath": "C:\\Users\\dioge\\OneDrive\\Documentos\\GitHub\\Catalogo-Olfa-v3\\Catalogo\\Catalogo.csproj",
         "packagesPath": "C:\\Users\\dioge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dioge\\source\\repos\\catalogo-OLFA\\Catalogo\\obj\\",
+        "outputPath": "C:\\Users\\dioge\\OneDrive\\Documentos\\GitHub\\Catalogo-Olfa-v3\\Catalogo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,9 +48,9 @@
               "target": "Package",
               "version": "[2.2.1, )"
             },
-            "MySql.Data": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[2.3.7, )"
             },
             "itext7": {
               "target": "Package",

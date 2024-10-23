@@ -7,7 +7,7 @@ using iText.Layout.Element;
 using iText.IO.Font;
 using iText.Kernel.Font;
 using System.Collections;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using iText.Kernel.Pdf.Canvas;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.ComponentModel;
