@@ -121,6 +121,7 @@ namespace Catalogo
                             string[] arr = tabela.Split(" - ");
 
                             double preco = dados.getPreco(file, arr[0]);
+                            double peso = dados.getPeso(arr[0]);
 
                             string valorFormatado = "";
 
@@ -147,6 +148,8 @@ namespace Catalogo
                                 .SetFont(PdfFontFactory.CreateFont("c:\\windows\\fonts\\arial.ttf", PdfEncodings.IDENTITY_H, true))
                                 .SetFontSize(28);
 
+                            string paragrafo3 = String.Format("{0:0.00}", peso);
+
                             // Define as coordenadas corretas para os parágrafos
                             var paragrafoX = 250; //(Convert.ToInt32(pageSize.GetWidth()) - Convert.ToInt32(paragrafo1.GetWidth())) / 3;
                             var paragrafoY = (pageSize.GetHeight() + imagemHeight) / 11;
@@ -167,6 +170,8 @@ namespace Catalogo
                                 .ShowText(file)
                                 .MoveText(0, -espacamento)
                                 .ShowText(valorFormatado)
+                                .MoveText(0, -espacamento)
+                                .ShowText("Peso Kg. " + paragrafo3)
                                 .SetWordSpacing(10)
                                 .EndText();
 

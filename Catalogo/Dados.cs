@@ -66,9 +66,8 @@ namespace Catalogo
 
             double preco = 0;
 
-            string sql = "SELECT pc.Preco FROM Produtos pd " +
-                "LEFT JOIN Precos pc ON pc.idFaixa_preco=pd.idFaixa_preco " +
-                "WHERE pd.idProduto=@id AND pc.idTabela_Preco=@tabela";
+            string sql = "SELECT Preco FROM Precos " +
+                "WHERE idProduto=@id AND idTabela_Preco=@tabela";
 
             using MySqlCommand cmd = new MySqlCommand(sql, connection);
             cmd.Parameters.AddWithValue("@id", produto);
@@ -83,5 +82,37 @@ namespace Catalogo
 
             return preco;
         } // getPreco()
+
+        public double getPeso(string produto)
+        {
+            using MySqlConnection connection = new MySqlConnection(connectionString);
+
+            try
+            {
+                connection.Open();
+                Console.WriteLine("Conexão bem-sucedida!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro de conexão: {ex.Message}");
+            }
+
+            double peso = 0;
+
+            string sql = "SELECT Peso FROM Produtos " +
+                "WHERE idProduto=@id";
+
+            using MySqlCommand cmd = new MySqlCommand(sql, connection);
+            cmd.Parameters.AddWithValue("@id", produto);
+
+            using MySqlDataReader dr = cmd.ExecuteReader();
+
+            if (dr.Read())
+            {
+                peso = Convert.ToDouble(dr["Peso"]);
+            }
+
+            return peso;
+        } // getPeso()
     }
 }
