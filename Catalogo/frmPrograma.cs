@@ -171,7 +171,7 @@ namespace Catalogo
                                 .MoveText(0, -espacamento)
                                 .ShowText(valorFormatado)
                                 .MoveText(0, -espacamento)
-                                .ShowText("Peso Kg. " + paragrafo3)
+                                .ShowText("Peso: " + paragrafo3 + " g")
                                 .SetWordSpacing(10)
                                 .EndText();
 
