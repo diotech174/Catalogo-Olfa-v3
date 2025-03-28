@@ -121,7 +121,7 @@ namespace Catalogo
                             string[] arr = tabela.Split(" - ");
 
                             double preco = dados.getPreco(file, arr[0]);
-                            double peso = dados.getPeso(arr[0]);
+                            double peso = dados.getPeso(file);
 
                             string valorFormatado = "";
 
